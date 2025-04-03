@@ -1,0 +1,139 @@
+
+.taskContainer {
+  text-align: center;
+    background-color: #e3f9f1; /* Pastel sea green */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.taskContainer h2 {
+  color: #2a9d8f;
+  margin-top: 0;
+}
+
+/* Columns layout */
+.columns-container {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.goal-column {
+  flex: 1;
+  padding: 15px;
+  background: #e9ecef;
+  border-radius: 5px;
+  border-top: 4px solid;
+}
+
+/* Column-specific styles */
+.weekly-column {
+  border-top-color: #FF7043; /* Orange */
+}
+
+.monthly-column {
+  border-top-color: #42A5F5; /* Blue */
+}
+
+.yearly-column {
+  border-top-color: #66BB6A; /* Green */
+}
+
+.weekly-header {
+  color: #FF7043;
+  margin-top: 0;
+}
+
+.monthly-header {
+  color: #42A5F5;
+  margin-top: 0;
+}
+
+.yearly-header {
+  color: #66BB6A;
+  margin-top: 0;
+}
+
+.input-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+.input-container input,
+.input-container select,
+.input-container button {
+  margin: 5px;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.input-container button {
+  background-color: #2a9d8f;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.input-container button:hover {
+  background-color: #21867a;
+}
+
+/* Goals list */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 5px;
+  cursor: pointer;
+  border-bottom: 1px solid #ddd;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.7;
+}
+
+.deadline {
+  font-size: 0.8rem;
+  color: #666;
+  background-color: #e0e0e0;
+  padding: 2px 6px;
+  border-radius: 10px;
+  margin-left: auto;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+  .columns-container {
+    flex-direction: column;
+  }
+  
+  .input-container {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .input-container input,
+  .input-container select {
+    width: 100%;
+  }
+}

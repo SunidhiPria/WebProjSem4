@@ -1,0 +1,36 @@
+.progressContainer {
+    text-align: center;
+    background-color: #e3f9f1; /* Pastel sea green */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .progressBar {
+    width: 100%;
+    background-color: #dcdcdc;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 10px;
+  }
+  
+  .progressFill {
+    height: 100%;
+    background-color: #4caf50;
+    width: 0%;
+    transition: width 0.5s ease-in-out;
+  }
+  
+  .successMessage {
+    color: #28a745;
+    font-weight: bold;
+  }
+  
+  .motivationMessage {
+    color: #ff9800;
+    font-weight: bold;
+  }
+  

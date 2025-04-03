@@ -1,0 +1,83 @@
+/* Task Tracker */
+.taskContainer {
+  text-align: center;
+  padding: 20px;
+  background: #e3f2fd;
+  border-radius: 10px;
+}
+
+.taskContainer button {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.taskContainer button:first-of-type {
+  background: #28a745;
+  color: white;
+}
+
+.taskContainer button:last-of-type {
+  background: #dc3545;
+  color: white;
+}
+
+/* Motivation */
+.motivationContainer {
+  text-align: center;
+  padding: 20px;
+  background: #fff3cd;
+  border-radius: 10px;
+}
+
+/* Notes */
+.notesContainer {
+  text-align: center;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 10px;
+}
+
+.notesContainer input {
+  width: 80%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.notesContainer button {
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.errorText {
+  color: red;
+}
+
+.successText {
+  color: green;
+}
+
+/* Navbar */
+.navbar {
+  background: #007bff;
+  padding: 10px;
+  text-align: center;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  background: #343a40;
+  color: white;
+}
